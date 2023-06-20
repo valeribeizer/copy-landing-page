@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import Brands from './components/Brands/Brands';
+import GreenBanner from './components/GreenBanner/GreenBanner';
+import CAR from './components/HARCAR/CAR';
+import HAR from './components/HARCAR/HAR';
+import HPSlider from './components/HomePage Slider/HPSlider';
+import LandingBanner from './components/Landing Banner/LandingBanner';
+import Navbar from './components/Navbar/Navbar';
+import RepairProcess from './components/RepairProcess/RepairProcess';
+import Trust from './components/Trust/Trust';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <div
+        style={{
+          width: "1200px",
+          display: "flex",
+          flexDirection: "column",
+          minHeight: "100vh",
+          marginLeft: "100px",
+        }}
+      >
+        <LandingBanner />
+        <HPSlider />
+        <GreenBanner />
+        <HAR />
+        <CAR />
+        <Trust />
+        <Brands />
+        <RepairProcess />
+      </div>
+      <Footer />
     </div>
   );
 }

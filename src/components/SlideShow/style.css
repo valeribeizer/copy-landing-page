@@ -1,0 +1,59 @@
+@import "react-slideshow-image/dist/styles.css";
+
+.slideshow-container {
+  position: relative;
+  width: 595px;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.indicators {
+  position: absolute;
+  left: 101px;
+  top: 521px;
+  flex-wrap: nowrap;
+}
+
+.indicator {
+  width: 9px;
+  height: 9px;
+  border-radius: 4.5px;
+  background: #ffffff;
+}
+
+.indicator.active {
+  background: #039e2a;
+}
+
+.btn-custom {
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 6px;
+  border: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 490px;
+  padding: 0;
+}
+
+.btn-custom-1 {
+  margin-left: 35px;
+}
+
+.btn-custom-2 {
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  margin-right: 470px;
+}
+
+.upper-arrow {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  margin: 0 auto;
+}
+
+.bottom-arrow {
+  transform: rotate(180deg);
+}

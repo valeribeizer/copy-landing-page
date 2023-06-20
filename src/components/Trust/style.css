@@ -1,0 +1,79 @@
+.trust-container {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+  border: 1px solid #f0f1f5;
+}
+
+.trust-h2 {
+  margin: 0 0 0 35px;
+  color: #313957;
+}
+
+.trustel-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.trustel-num {
+  box-sizing: border-box;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #039e2a;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.data-container {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.trustel-h3 {
+  color: #313957;
+}
+
+.trustel-h6 {
+  width: 90%;
+  margin: 0;
+  color: #656f8b;
+}
+
+.line-trust {
+  position: relative;
+  width: 95%;
+  height: 0px;
+  margin-left: 35px;
+  border: 1px solid #f0f1f5;
+}
+
+.line-trust-2 {
+  position: relative;
+  width: 0;
+  height: 98px;
+  margin: 5px 20px 0 0;
+  border: 1px solid #f0f1f5;
+}
+
+.row-subcontainer {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  height: 98px;
+  margin-left: 35px;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: column;
+}

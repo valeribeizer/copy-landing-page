@@ -1,0 +1,45 @@
+.gb-container {
+  flex-direction: row;
+  align-items: center;
+  gap: 35px;
+  background: #039e2a;
+}
+
+.running-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 25px;
+  margin-left: 30px;
+  border: 1px solid #39bf5a;
+  border-radius: 10px;
+}
+
+.num-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.num {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  margin: 0;
+  color: #ffffff;
+}
+
+.text {
+  margin: 0;
+  color: #39bf5a;
+}
+
+.gb-h2 {
+  width: 875px;
+  margin-right: 35px;
+  color: #ffffff;
+}
